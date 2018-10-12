@@ -52,12 +52,12 @@ button {
   font-family: 'Roboto', sans-serif;
 }
 
-/*button:hover {
+button:hover {
   color: white;
   background: #1abc9c;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
