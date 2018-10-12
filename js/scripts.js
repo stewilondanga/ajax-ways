@@ -24,22 +24,22 @@ xhr.addEventListener("click", function() {
   XHR.open("GET", url)
   XHR.send();
 })
-/*
+
 //fetch version
 var fetchbtn = document.querySelector("#fetch");
 var ronFetch = document.querySelector("#quote");
-fetchbtn.addEventListener("click", function(){
+fetchbtn.addEventListener("click", function() {
   fetch(url)
-    .then(function(req){
-      req.json().then(function(data){
+    .then(function(req) {
+      req.json().then(function(data) {
         ronFetch.innerText = data[0];
       })
-  })
-    .catch(function(){
-    console.log("err");
-  })
+    })
+    .catch(function() {
+      console.log("err");
+    })
 });
-
+/*
 //jquery version
 var jquery = document.querySelector("#jquery");
 // var ronJquery = document.querySelector("#quote");
