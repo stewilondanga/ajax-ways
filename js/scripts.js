@@ -7,8 +7,8 @@ var navigate = (function() {
   });
 })();
 
-/*var url = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes';
-
+var url = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes';
+/*
 //xhr version
 var xhr = document.querySelector("#xhr");
 var ronXhr = document.querySelector("#quote");
