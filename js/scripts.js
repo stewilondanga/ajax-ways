@@ -8,15 +8,15 @@ var navigate = (function() {
 })();
 
 var url = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes';
-/*
+
 //xhr version
 var xhr = document.querySelector("#xhr");
 var ronXhr = document.querySelector("#quote");
-xhr.addEventListener("click", function(){
+xhr.addEventListener("click", function() {
   var XHR = new XMLHttpRequest();
 
-  XHR.onreadystatechange = function(){
-    if(XHR.readyState == 4 && 200 ) {
+  XHR.onreadystatechange = function() {
+    if (XHR.readyState == 4 && 200) {
       var quote = JSON.parse(XHR.responseText);
       ronXhr.innerText = quote;
     }
@@ -24,7 +24,7 @@ xhr.addEventListener("click", function(){
   XHR.open("GET", url)
   XHR.send();
 })
-
+/*
 //fetch version
 var fetchbtn = document.querySelector("#fetch");
 var ronFetch = document.querySelector("#quote");
