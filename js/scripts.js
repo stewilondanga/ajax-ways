@@ -39,18 +39,18 @@ fetchbtn.addEventListener("click", function() {
       console.log("err");
     })
 });
-/*
+
 //jquery version
 var jquery = document.querySelector("#jquery");
 // var ronJquery = document.querySelector("#quote");
-$('#jquery').click(function(){
+$('#jquery').click(function() {
   $.getJSON(url)
-  .done(function(data){
-    $('#quote').text(data[0]);
-  });
+    .done(function(data) {
+      $('#quote').text(data[0]);
+    });
 })
 
-
+/*
 //axios version
 var axiosbtn = document.querySelector("#axios");
 var ronAxios = document.querySelector("#quote");
