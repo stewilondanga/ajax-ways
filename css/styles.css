@@ -24,14 +24,13 @@ body {
   font-size: 20px;
 }
 
-/*.container {
+.container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-
-button {
+/*button {
   margin-top: 20px;
   background: red;
   border: none;
