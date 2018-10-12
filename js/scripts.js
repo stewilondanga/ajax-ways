@@ -50,16 +50,16 @@ $('#jquery').click(function() {
     });
 })
 
-/*
+
 //axios version
 var axiosbtn = document.querySelector("#axios");
 var ronAxios = document.querySelector("#quote");
-axiosbtn.addEventListener("click", function(){
+axiosbtn.addEventListener("click", function() {
   axios.get(url)
-  .then(function(res){
-    ronAxios.innerText = res.data[0];
-  })
-  .catch(function(){
-    alert("error");
-  })
+    .then(function(res) {
+      ronAxios.innerText = res.data[0];
+    })
+    .catch(function() {
+      alert("error");
+    })
 })
